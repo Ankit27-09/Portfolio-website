@@ -1,0 +1,96 @@
+
+ .main-container {
+    background-image:url("https://img.freepik.com/free-vector/abstract-desktop-background-white-geometric-design-vector_53876-140225.jpg?w=996&t=st=1700974633~exp=1700975233~hmac=4e1f6222501cfb0c6c19ede6ff7d75f38970d10f861d3b242f4bc6d4f79069f3");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height:calc(100vh - 60px);
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.1);
+ }
+
+
+
+
+
+.heading h1{
+    font-size: 40px;
+
+}
+
+.technologies img{
+    margin-right: 10px;
+    width: 8%;
+
+}
+
+
+.portfolio {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+.social-links{
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a{
+    color: black;
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.social-links a:hover{
+    color: rgb(86, 86, 252);
+    transition: 0.2s ease-in-out;
+}
+
+
+.portfolio dotlottie-player {
+    float:right;
+    position:relative;
+    
+
+}
+
+.quote {
+    font-size: larger;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.hiring button {
+    background-color:rgba(246, 111, 111, 0.822);
+    border-radius:5px;
+    font-weight: bold;
+    padding:15px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.hiring button:hover {
+    background-color: rgb(237, 84, 84);
+}
+
+.block {
+    margin-top:10px;
+    margin-left:20px;
+    display:flex;
+    width: 55%;
+    margin-left: 30px;
+    flex-direction:column;
+    gap:10px;
+
+}
+
+
+
+

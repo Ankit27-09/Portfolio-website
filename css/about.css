@@ -1,0 +1,37 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    
+    height:100vh;
+}
+
+
+.about {
+    display:flex;
+    justify-content: space-evenly;
+  
+    
+}
+
+.about-image img{
+    border-radius: 15px;
+}
+
+
+
+.about-text {
+    width:65%;
+    border:1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+   
+}
+ul li{
+    margin-right: 100px;
+}
+
+.info-list li{
+    list-style: square;
+    line-height: 40px;
+}
+   
