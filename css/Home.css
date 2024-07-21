@@ -12,6 +12,12 @@
     background-color: rgba(0, 0, 0, 0.1);
  }
 
+ .linkedin img {
+    width: 400px;
+
+ }
+
+ 
 
 
 
@@ -48,7 +54,7 @@
 }
 
 .social-links a:hover{
-    color: rgb(86, 86, 252);
+    color: #5EA8FD;
     transition: 0.2s ease-in-out;
 }
 
@@ -67,7 +73,8 @@
 }
 
 .hiring button {
-    background-color:rgba(246, 111, 111, 0.822);
+    background-color:#A6C9FF;
+    border-color: #60A7FF;
     border-radius:5px;
     font-weight: bold;
     padding:15px;
@@ -91,6 +98,17 @@
 
 }
 
+/* Responsive Home Page */
+@media only screen and (max-width: 768px) {
+    .portfolio {
+        flex-direction: column-reverse;
+        height:auto;
+        gap: 2rem;
+    }
 
+    .block {
+        width:70%;
+    }
+  }
 
 

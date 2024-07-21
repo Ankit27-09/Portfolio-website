@@ -8,13 +8,15 @@
 
 .about {
     display:flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
   
     
 }
 
+
 .about-image img{
     border-radius: 15px;
+    width: 300px;
 }
 
 
@@ -33,5 +35,27 @@ ul li{
 .info-list li{
     list-style: square;
     line-height: 40px;
+   
 }
+
+li a {
+    text-decoration:none;
+}
+
+/* Responsive About page */
+
+@media only screen and (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+      gap:2rem;
+      
+    }
+    .about-text {
+        width:95%;
+    }
+    .experience {
+        display: flex;
+    }
+  }
    
